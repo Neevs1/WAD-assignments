@@ -1,0 +1,54 @@
+body{
+ font-family: Verdana;
+ margin:0px;
+}
+
+.container{
+      display:flex;
+  }
+.sidebar{
+      width:20%;
+      height:100vh;
+      border:5px darkslatedgray;
+      border-style:groove;
+      text-align:center;
+      background-color:azure;
+  }
+.sidebar > button {
+      width:100%;
+      height:10%;
+      background-color:Azure;
+      border:none;
+      font-family:Verdana;
+
+}
+.sidebar > button:hover {
+      width:100%;
+      height:10%;
+      background-color:White;
+      border:none;
+      font-family:Verdana;
+
+
+}
+.content{
+     padding:10px;
+     background-color:white;
+ }
+
+.content > h1 {
+  color:blue;
+
+}
+
+footer{
+ background-color:black;
+ color:white;
+ text-align:center;
+}
+
+.mc{
+ display:flex;
+ flex-direction:column;
+
+}
