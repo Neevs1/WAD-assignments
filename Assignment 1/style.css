@@ -2,10 +2,9 @@ body{
  font-family: Verdana;
  margin:0px;
 }
-
-.container{
-      display:flex;
-  }
+.container-fluid{
+ display:flex;
+}
 .sidebar{
       width:20%;
       height:100vh;
@@ -13,6 +12,7 @@ body{
       border-style:groove;
       text-align:center;
       background-color:azure;
+      margin:0;
   }
 .sidebar > button {
       width:100%;
