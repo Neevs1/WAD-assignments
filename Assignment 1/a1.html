@@ -92,8 +92,42 @@
           </div>
         
        </div>
+        <canvas id="myLineChart" style:"width:100%;height:40vh"></canvas>
      </div>
+    
    </div>
   <footer>All rights reserved Foodo 2026</footer>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.1/dist/chart.umd.min.js"></script>
+	<script>
+
+const ctx = document.getElementById('myLineChart').getContext('2d');
+
+// Configuration for the line chart
+const config = {
+    type: 'line',
+    data: {
+        labels: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+        datasets: [{
+            label: 'Weekly sales data',
+            data: [65, 59, 80, 81, 56, 55, 40], // The data points
+            fill: false, // Prevents filling the area under the line
+            borderColor: 'rgb(75, 192, 192)', // Line color
+            tension: 0.1 // For a smooth curve (0 for straight lines)
+        }]
+    },
+    options: {
+        scales: {
+            y: {
+                beginAtZero: true // Ensure the y-axis starts at zero
+            }
+        },
+        // More options can be added here for customization
+    }
+};
+
+// Create the chart instance
+const myLineChart = new Chart(ctx, config);
+
+</script>
   </body>
  </html>
