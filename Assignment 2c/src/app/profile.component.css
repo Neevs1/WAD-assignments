@@ -1,0 +1,20 @@
+section {
+  display: grid;
+  gap: 16px;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  background: #2a63f7;
+  color: white;
+}
+
+.success {
+  color: #157f1f;
+}

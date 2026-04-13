@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f7fb;
+  color: #1a1a1a;
+}
+
+main {
+  padding: 16px;
+}
+
+.container {
+  max-width: 480px;
+  margin: 24px auto;
+  padding: 24px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+button {
+  cursor: pointer;
+}
+
+input,
+button {
+  font: inherit;
+}
+
+a {
+  color: #2a63f7;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

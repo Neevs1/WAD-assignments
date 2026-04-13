@@ -1,0 +1,354 @@
+﻿node.exe : Workspace 
+extension with invalid 
+name (defaultProject) 
+found.
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo        
+      : NotSpecified: (W  
+  orkspace exten...Proj   
+ ect) found.:String) [    
+], RemoteException
+    + FullyQualifiedError 
+   Id : NativeCommandErr  
+  or
+ 
+- Generating browser 
+application bundles 
+(phase: setup)...
+    TypeScript compiler 
+options "target" and 
+"useDefineForClassFields" 
+are set to "ES2022" and 
+"false" respectively by 
+the Angular CLI. To 
+control ECMA version and 
+features use the 
+Browerslist 
+configuration. For more 
+information, see https://a
+ngular.io/guide/build#conf
+iguring-browser-compatibil
+ity
+    NOTE: You can set the 
+"target" to "ES2022" in 
+the project's tsconfig to 
+remove this warning.
+Γ£ö Browser application 
+bundle generation 
+complete.
+Γ£ö Browser application 
+bundle generation 
+complete.
+
+Error: node_modules/@angul
+ar/core/index.d.ts:8:33 - 
+error TS2307: Cannot find 
+module 'rxjs' or its 
+corresponding type 
+declarations.
+
+8 import { 
+BehaviorSubject } from 
+'rxjs';
+                          
+        ~~~~~~
+
+
+Error: node_modules/@angul
+ar/core/index.d.ts:9:28 - 
+error TS2307: Cannot find 
+module 'rxjs' or its 
+corresponding type 
+declarations.
+
+9 import { Observable } 
+from 'rxjs';
+                          
+   ~~~~~~
+
+
+Error: node_modules/@angul
+ar/core/index.d.ts:10:25 
+- error TS2307: Cannot 
+find module 'rxjs' or its 
+corresponding type 
+declarations.
+
+10 import { Subject } 
+from 'rxjs';
+                          
+ ~~~~~~
+
+
+Error: node_modules/@angul
+ar/core/index.d.ts:11:30 
+- error TS2307: Cannot 
+find module 'rxjs' or its 
+corresponding type 
+declarations.
+
+11 import { Subscribable 
+} from 'rxjs';
+                          
+      ~~~~~~
+
+
+Error: node_modules/@angul
+ar/core/index.d.ts:12:30 
+- error TS2307: Cannot 
+find module 'rxjs' or its 
+corresponding type 
+declarations.
+
+12 import { Subscription 
+} from 'rxjs';
+                          
+      ~~~~~~
+
+
+Error: node_modules/@angul
+ar/forms/index.d.ts:16:28 
+- error TS2307: Cannot 
+find module 'rxjs' or its 
+corresponding type 
+declarations.
+
+16 import { Observable } 
+from 'rxjs';
+                          
+    ~~~~~~
+
+
+Error: node_modules/@angul
+ar/platform-browser/index.
+d.ts:16:21 - error 
+TS2307: Cannot find 
+module '@angular/common' 
+or its corresponding type 
+declarations.
+
+16 import * as i1 from 
+'@angular/common';
+                       
+~~~~~~~~~~~~~~~~~
+
+
+Error: node_modules/@angul
+ar/platform-browser/index.
+d.ts:38:29 - error 
+TS2307: Cannot find 
+module '@angular/common' 
+or its corresponding type 
+declarations.
+
+38 import { ╔╡DomAdapter 
+} from '@angular/common';
+                          
+     ~~~~~~~~~~~~~~~~~
+
+
+Error: node_modules/@angul
+ar/platform-browser/index.
+d.ts:39:25 - error 
+TS2307: Cannot find 
+module '@angular/common' 
+or its corresponding type 
+declarations.
+
+39 import { ╔╡getDOM } 
+from '@angular/common';
+                          
+ ~~~~~~~~~~~~~~~~~
+
+
+Error: node_modules/@angul
+ar/router/index.d.ts:19:34
+ - error TS2307: Cannot 
+find module 
+'@angular/common' or its 
+corresponding type 
+declarations.
+
+19 import { 
+LocationStrategy } from 
+'@angular/common';
+                          
+          
+~~~~~~~~~~~~~~~~~
+
+
+Error: node_modules/@angul
+ar/router/index.d.ts:22:28
+ - error TS2307: Cannot 
+find module 'rxjs' or its 
+corresponding type 
+declarations.
+
+22 import { Observable } 
+from 'rxjs';
+                          
+    ~~~~~~
+
+
+Error: src/app/app.module.
+ts:2:10 - error TS2305: 
+Module '"@angular/forms"' 
+has no exported member 
+'provideForms'.
+
+2 import { provideForms } 
+from '@angular/forms';
+           ~~~~~~~~~~~~
+
+
+Error: src/app/auth.servic
+e.ts:2:33 - error TS2307: 
+Cannot find module 'rxjs' 
+or its corresponding type 
+declarations.
+
+2 import { 
+BehaviorSubject } from 
+'rxjs';
+                          
+        ~~~~~~
+
+
+Error: src/app/auth.servic
+e.ts:21:23 - error 
+TS2729: Property 
+'currentUserSubject' is 
+used before its 
+initialization.
+
+21   currentUser$ = this.c
+urrentUserSubject.asObserv
+able();
+                         
+~~~~~~~~~~~~~~~~~~
+
+  src/app/auth.service.ts:
+20:11
+    20   private 
+currentUserSubject: Behavi
+orSubject<UserProfile | 
+null>;
+                 
+~~~~~~~~~~~~~~~~~~
+    'currentUserSubject' 
+is declared here.
+
+
+Error: src/app/login.compo
+nent.ts:2:30 - error 
+TS2307: Cannot find 
+module '@angular/common' 
+or its corresponding type 
+declarations.
+
+2 import { CommonModule } 
+from '@angular/common';
+                          
+     ~~~~~~~~~~~~~~~~~
+
+
+Error: src/app/login.compo
+nent.ts:10:12 - error 
+NG1010: 'imports' must be 
+an array of components, 
+directives, pipes, or 
+NgModules.
+  Value is of type '[(not 
+statically analyzable), 
+FormsModule]'.
+
+10   imports: 
+[CommonModule, 
+FormsModule],
+              ~~~~~~~~~~~~
+~~~~~~~~~~~~~~~
+
+
+Error: src/app/profile.com
+ponent.ts:2:30 - error 
+TS2307: Cannot find 
+module '@angular/common' 
+or its corresponding type 
+declarations.
+
+2 import { CommonModule } 
+from '@angular/common';
+                          
+     ~~~~~~~~~~~~~~~~~
+
+
+Error: src/app/profile.com
+ponent.ts:9:12 - error 
+NG1010: 'imports' must be 
+an array of components, 
+directives, pipes, or 
+NgModules.
+  Value is of type '[(not 
+statically analyzable), 
+RouterModule]'.
+
+9   imports: 
+[CommonModule, 
+RouterModule],
+             ~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~
+
+
+Error: src/app/register.co
+mponent.ts:2:30 - error 
+TS2307: Cannot find 
+module '@angular/common' 
+or its corresponding type 
+declarations.
+
+2 import { CommonModule } 
+from '@angular/common';
+                          
+     ~~~~~~~~~~~~~~~~~
+
+
+Error: src/app/register.co
+mponent.ts:10:12 - error 
+NG1010: 'imports' must be 
+an array of components, 
+directives, pipes, or 
+NgModules.
+  Value is of type '[(not 
+statically analyzable), 
+FormsModule]'.
+
+10   imports: 
+[CommonModule, 
+FormsModule],
+              ~~~~~~~~~~~~
+~~~~~~~~~~~~~~~
+
+
+Error: src/main.ts:3:35 - 
+error TS2307: Cannot find 
+module 
+'@angular/common/http' or 
+its corresponding type 
+declarations.
+
+3 import { 
+provideHttpClient } from 
+'@angular/common/http';
+                          
+          
+~~~~~~~~~~~~~~~~~~~~~~
+
+
+

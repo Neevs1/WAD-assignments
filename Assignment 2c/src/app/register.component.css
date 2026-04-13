@@ -1,0 +1,32 @@
+form {
+  display: grid;
+  gap: 16px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #d0d7df;
+  border-radius: 8px;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  background: #2a63f7;
+  color: white;
+}
+
+.success {
+  color: #157f1f;
+}
+
+.error {
+  color: #b42318;
+}
